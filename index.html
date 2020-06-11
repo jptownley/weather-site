@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Weather</title>
+    <link href="style.css" rel="stylesheet" ?>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Today's Weather</h1>
+    </div>
+<div class="data">
+    <h3 class="box">Current Weather for <span id="location"></span></h3>
+    <h3 class="box">Temperature:
+        <ul>
+            <li id="tempF"></li>
+            <li id="tempC"></li>
+        </ul>
+
+    <h3 class="box">Wind Speed <span id="windKnots"></span> Knots
+        <ul>
+            <li id="windM"></li>
+            <li id="windK"></li>
+        </ul>
+    </h3>
+    <h3 class="box">Sky Conditions: <span id="sky"></span></h3>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
