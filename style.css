@@ -14,8 +14,10 @@ body {
 .header{
     font-weight: 600;
     text-shadow: white 1px 0 10px;
-    text-align: center;
-    margin-bottom: 100px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 55vw;
+    padding: 5px;
 
 }
 .data{
