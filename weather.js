@@ -26,7 +26,7 @@ $.ajax ({
         $("#windKnots").text(windKnots);
 
         let windKilometers = (result.wind.speed * 3.6);
-        let windK = windKilometers.toString();
+        let windK = windKilometers.toFixed(1);
         $("#windK").text(windK+" KPH")
         let windMiles = Math.round(result.wind.speed * 2.23694);
         let windM = windMiles.toString();
