@@ -34,3 +34,4 @@ function weatherForecast(){
         }
     })
 }
+export { weatherForecast };

@@ -31,3 +31,5 @@ function geoLocator(){
   };
 document.querySelector('#find-me').addEventListener('click', geoFindMe);
 }
+
+export { geoLocator, geoFindMe };
